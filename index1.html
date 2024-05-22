@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sai Kumar Buragadda</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+            color: #333;
+            animation: gradientBackground 10s ease infinite;
+            background-size: 200% 200%;
+        }
+        @keyframes gradientBackground {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .container {
+            width: 80%;
+            margin: 40px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            border-radius: 12px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .container:hover {
+            transform: scale(1.02);
+            box-shadow: 0 0 30px rgba(0,0,0,0.2);
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #2980b9;
+            margin-top: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+            flex-grow: 1;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        nav a:hover {
+            background-color: #3498db;
+            transform: scale(1.1);
+        }
+        .tabcontent {
+            display: none;
+            padding: 20px 0;
+        }
+        .active {
+            display: block;
+        }
+        h2, h3 {
+            color: #2980b9;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 -4px 8px rgba(0,0,0,0.1);
+        }
+        .icon {
+            margin-right: 10px;
+        }
+        .link {
+            color: white;
+            text-decoration: none;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        a.project-link {
+            color: #2980b9;
+            text-decoration: none;
+        }
+        a.project-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Sai Kumar Buragadda</h1>
+    <p><a class="link" href="https://www.linkedin.com/in/saikumarburagadda/" target="_blank"><i class="fab fa-linkedin icon"></i>LinkedIn</a> | <i class="fas fa-phone icon"></i>Mobile: 4704376258 | <i class="fas fa-envelope icon"></i>Email: sburagadda1@gmail.com</p>
+</header>
+
+<div class="container">
+    <nav>
+        <a href="#" class="tablinks" onclick="openTab(event, 'SummaryEducation')">Summary & Education</a>
+        <a href="#" class="tablinks" onclick="openTab(event, 'Experience')">Experience</a>
+        <a href="#" class="tablinks" onclick="openTab(event, 'Projects')">Projects</a>
+    </nav>
+
+    <div id="SummaryEducation" class="tabcontent">
+        <h2>Professional Summary</h2>
+        <p>I am a seasoned Computer Science Engineer specializing in Security Engineering. My expertise lies in developing and implementing robust security strategies, conducting thorough vulnerability assessments, and executing effective incident response protocols. I have a proven track record of reducing security incidents by 30% through proactive threat mitigation. I hold industry-recognized certifications and possess a strong foundation in security architecture. My commitment to safeguarding organizations from cyber threats is demonstrated through my continuous effort to stay updated on emerging trends and collaborate seamlessly with cross-functional teams to achieve security objectives. I am passionate about enhancing the security posture of organizations and contributing to their mission of protecting critical systems and sensitive data.</p>
+
+        <h2>Education</h2>
+        <p><strong><i class="fas fa-university icon"></i>Master of Science, Computer Science</strong> - Georgia State University, Atlanta, GA (Jan 2022 – Dec 2023)</p>
+        <p><strong><i class="fas fa-university icon"></i>Bachelor of Technology, Computer Science</strong> – Sathyabama University, India (June 2016 - April 2020)</p>
+    </div>
+
+    <div id="Experience" class="tabcontent">
+        <h2>Work Experience</h2>
+        <h3><i class="fas fa-briefcase icon"></i>Security Engineer Intern, HERE Technologies</h3>
+        <p><em>July 2023 – Present</em></p>
+        <ul>
+            <li>Engaged in threat hunting activities and responding to mitigate potential security threats.</li>
+            <li>Assisted in vulnerability management processes, utilizing tools like Nessus, OpenVAS, and Qualys.</li>
+            <li>Crafted advanced Splunk queries for log analysis and enhanced real-time dashboard creation.</li>
+            <li>Strengthened AWS instances with rigorous security measures.</li>
+            <li>Led the implementation of a SOAR platform within Splunk, automating repetitive tasks.</li>
+        </ul>
+        
+        <h3><i class="fas fa-chalkboard-teacher icon"></i>Graduate Research and Teaching Assistant, Georgia State University</h3>
+        <p><em>Jan 2022 – May 2023</em></p>
+        <ul>
+            <li>Instructed and guided students in the Principles of Computer Science course.</li>
+            <li>Provided additional support to students through office hours and course material clarification.</li>
+            <li>Participated in various projects utilizing technologies such as LDA, Audit Regex, and Machine Learning.</li>
+        </ul>
+        
+        <h3><i class="fas fa-shield-alt icon"></i>Senior Cyber Security Engineer, Cognizant Technology Solutions, India</h3>
+        <p><em>Jan 2019 – Dec 2021</em></p>
+        <ul>
+            <li>Worked in Threat and Vulnerability Management as an L2 Engineer.</li>
+            <li>Conducted threat hunting and monitoring using SIEM tools like Splunk and ELK Stack.</li>
+            <li>Configured and managed security tools such as firewalls and intrusion detection/prevention systems.</li>
+            <li>Integrated security into the software development lifecycle with DevOps teams.</li>
+            <li>Developed and enforced security policies and procedures to maintain the integrity and confidentiality of data.</li>
+            <li>Conducted regular security audits and risk assessments to identify and mitigate potential vulnerabilities.</li>
+            <li>Collaborated with cross-functional teams to ensure seamless implementation of security measures.</li>
+        </ul>
+    </div>
+
+    <div id="Projects" class="tabcontent">
+        <h2>Projects</h2>
+        <h3><i class="fas fa-project-diagram icon"></i>Breast Cancer Prediction using Deep Learning and Neural Networks | ML</h3>
+        <p>Developed a breast cancer prediction model using advanced deep learning techniques to attain a 95% accuracy rate. This project involved the orchestration of a multidisciplinary team of Data Scientists and Machine Learning Engineers, utilizing techniques such as CNNs and KNNs to enhance diagnostic capabilities for healthcare providers.</p>
+        
+        <h3><i class="fas fa-cloud icon"></i>Effective & Secured Medical Data Storage in Cloud Environment Using Blockchain, Cryptography & Steganography</h3>
+        <p>Developed a secure solution for storing Electronic Health Records (EHRs) using a combination of cryptography and steganography. This project addressed critical issues related to data privacy and security in EHRs, ensuring the confidentiality of patients' medical information and providing authorized individuals with easy access to the data.</p>
+        
+        <h3><i class="fas fa-vote-yea icon"></i>Blockchain Integration in House Voting System | Blockchain</h3>
+        <p>Engineered a secure and transparent voting system leveraging blockchain technology. This project aimed to enhance the security and integrity of the voting process, ensuring that each vote is accurately recorded and immutable. For more details, visit the <a class="project-link" href="https://link.springer.com/chapter/10.1007/978-981-15-7511-2_52" target="_blank">project paper</a>.</p>
+    </div>
+</div>
+
+<footer>
+    &copy; 2024 Sai Kumar Buragadda
+</footer>
+
+<script>
+    function openTab(evt, tabName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(tabName).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+    document.getElementsByClassName("tablinks")[0].click();
+</script>
+
+</body>
+</html>
